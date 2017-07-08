@@ -1,0 +1,163 @@
+body{
+    background-image: url(tlo.jpg); background-attachment: fixed;
+    margin:0;
+
+}
+.wrapper{
+    width: 100%;
+}
+
+.header{
+    width: 100%;
+    padding: 40px 0;
+
+}
+.logo{
+    width:450px;
+    font-size: 48px;
+    border:1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.2);
+
+}
+nav.menu{
+    width: 100%;
+    background-color: rgba(255, 0, 0, 0.3);
+    text-align: center;
+    border-top: 1px solid #751b1b ;
+    border-bottom: 1px solid #751b1b ;
+    position:sticky;
+    top:0;
+
+
+}
+ol{
+    margin:0;
+    padding:0;
+    list-style: none;
+    font-size: 18px;
+    height: 35px;
+    line-height: 200%;
+    display: inline-block;
+}
+
+ol>li{
+    float:left;
+    width: 200px;
+    height: 40px;
+    border-right: 1px dashed #000000;
+}
+ol>li:first-child{
+    border-left: 1px dashed #000000;
+}
+
+ol>li:hover{
+    background-color: #d45f4f;
+    cursor: pointer;
+
+
+}
+ol a{
+    text-decoration:none;
+    color:#ffffff;
+}
+
+ol > li:hover > a{
+    color:#451717;
+}
+ol > li > ul{
+    list-style:none;
+    padding: 0;
+    margin: 0;
+    display: none;
+}
+
+ol > li > ul > li{
+    background-color: #c34f4f;
+    border-bottom: 1px dashed #000000 ;
+    position: relative;
+    z-index: 100;
+
+}
+ol > li > ul > li:first-child{
+    border-top:1px dashed #000000;
+}
+
+ol > li > ul > li:hover{
+    background-color: #d45f4f;
+    cursor: pointer;
+}
+
+ol > li > ul > li:hover > a{
+    color:#451717;
+}
+
+ol > li:hover > ul{
+    display: block;
+}
+
+.content{
+
+    width:100%;
+}
+.part{
+    width: 80%;
+    margin-left: 10%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px dashed #000000;
+    height: 400px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-left:1px solid black;
+    border-right:1px solid black;
+
+}
+.photo{
+    height: 400px;
+    width: 30%;
+    float: left;
+    border-right: 1px dashed #000000;
+    text-align: center;
+    padding-right: 20px;
+    padding-left: 20px;
+
+}
+.info{
+    width: 60%;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: justify;
+    float:left;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-top: 150px;
+
+}
+
+.photo img{
+    margin-top: 150px;
+}
+.footer{
+    height: 30px;
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #000;
+    text-align: center;
+}
+.part:first-child{
+    border-top: 1px solid #000000;
+}
+
+.scrollup
+{
+    width: 64px;
+    height: 64px;
+    text-decoration: none;
+    background-color: black;
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    display: none;
+}
